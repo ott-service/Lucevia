@@ -2,9 +2,19 @@
 
 <br/>
 
+### 목차
+
+0. [프로젝트 멤버](#-members-)
+1. [프로젝트 소개](#01-프로젝트-소개-)
+2. [구현 기능](#02-구현-기능-)
+3. [추가 기능](#03-추가-기능-)
+4. [서비스 수익 모델](#04-서비스-수익-모델-)
+5. [문서](#05-문서-)
+   <br/>
+
 <br/>
 
-### 👩‍🚀 Members 🧑
+## 👩‍🚀 Members 🧑
 
 <!-- prettier-ignore-start -->
 |        김한울        |        박윤선        |        유진         |       이진용        |       황선우        |
@@ -17,78 +27,73 @@
 
 <br/><br/>
 
-### 목차
-
-1. [프로젝트 소개](#01-프로젝트-소개-)
-2. [구현 기능](#02-구현-기능-)
-3. [문서](#03-문서-)
-
-<br/><br/>
-
 ---
-
-<br/>
 
 ## 01. 프로젝트 소개 📝
 
-###
-
-### 기간
-
-<br/>
-
-### 프로젝트 소개
+OTMeal은 여러 OTT 플랫폼(Netflix, 왓챠, 티빙, Disney+, Amazon Prime 등)에서 제공하는 드라마 및 영화를 한 곳에서 통합적으로 검색, 비교, 관리할 수 있는 서비스입니다. 유저는 다양한 플랫폼 간의 경계를 허물고, 최적의 콘텐츠를 손쉽게 선택할 수 있습니다.
 
 <br/><br/>
-
-### 프로젝트 목적
-
-<br/><br/>
-
-### 기술 스택
-
-<!-- prettier-ignore-start -->
-
-|카테고리| 기술 및 도구 |
-| :----: | ------ |
-| **마크업 및 스타일링** | <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white"/> <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/> |
-|        **언어**        | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>|
-|     **프레임워크**     | <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>|
-|     **라이브러리**     | <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>|
-|     **상태 관리**      | <img src="https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=zustand&logoColor=white"/>|
-|     **개발 도구**      | <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black"/> <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"/> <img src="https://img.shields.io/badge/Swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white"/> <img src="https://img.shields.io/badge/Framer--Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white"/> <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"/> |
-|   **데이터 베이스**    | <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/>|
-|        **배포**        | <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/> |
-<!-- prettier-ignore-end -->
-
-<br/><br/>
-
-### 배포
-
-<a href="/">
-  <img src="/" alt="배포 QR 이미지" />
-</a>
-
-<br/><br/>
-<br/>
 
 ## 02. 구현 기능 ⚙
 
-<br/>
-
-<!-- - [기능 구현]() -->
+1. **콘텐츠 통합 검색**
+   - 여러 OTT 서비스의 영화, 드라마를 통합 검색 가능.
+   - 플랫폼별 필터 기능 제공 (Netflix, 왓챠, 티빙, Disney+, Amazon Prime 등).
+2. **카테고리 및 필터 기능**
+   - 장르, 국가, 출시 연도, 평점별로 콘텐츠를 필터링.
+   - 현재 시청 가능한 콘텐츠만 필터링.
+3. **맞춤형 추천**
+   - 유저의 시청 기록 및 관심사를 기반으로 맞춤형 콘텐츠 추천.
+4. **플랫폼별 가격 비교**
+   - 동일 콘텐츠에 대한 각 OTT 서비스의 가격을 비교.
+5. **신작 알림**
+   - 각 OTT 서비스에 추가된 신작 콘텐츠 알림 기능 제공.
+6. **리뷰 및 평가 시스템**
+   - 유저가 시청한 콘텐츠에 대한 리뷰 및 평가 제공.
+7. **플랫폼 간 콘텐츠 이동**
+   - 콘텐츠 세부 정보를 클릭하면 해당 OTT 서비스로 바로 이동 가능.
+8. **즐겨찾기 및 시청 목록 관리**
+   - 관심 있는 콘텐츠를 즐겨찾기에 추가하고 시청 목록 관리.
 
 <br/><br/>
-<br/>
 
-<!-- ## 03. 문서 🗂
-- [기획]()
-- [디자인 및 기능]()
-- [제품 백로그]()
-- [DB 설계]()
-- [트러블 슈팅]() -->
+## 03. 추가 기능 🎯
 
-<!--
-- [업무 분담]()
-- [컨벤션(Convention)]()
-- [회의록]() -->
+1. 커뮤니티 기능 추가
+2. 감상평 저장
+   - 한줄 감상평
+   - 영화일기
+3. 배우 기반 추천
+4. 영화 작업 현황 제공
+5. 날씨, 감정 기반 영화추천
+6. 자막 유무, 더빙유무 표기
+7. OTT 별 가격 비교
+8. 해당 작품 관람 여부
+9. 캘린더
+10. 신작 소개 타임로그
+
+<br/><br/>
+
+## 04. 서비스 수익 모델 💰
+
+1. **프리미엄 구독 모델**
+   - 기본 검색 기능 무료 제공, 맞춤 추천 및 신작 알림 등의 프리미엄 기능은 구독자에게 제공.
+2. **파트너십 및 광고**
+   - OTT 서비스와의 파트너십을 통해 가입 유도 및 추천 콘텐츠 광고 수익 창출.
+
+<br/><br/>
+
+## 05. 문서 📑
+
+<!-- 문서 관련 항목들 -->
+
+## 06. 작업로그
+
+### 2024.10.11
+
+- 황선우
+  - initial Git repository setting
+    - init: develop 브랜치 생성 및 개발환경 세팅
+    - docs: ISSUE_TEMPLATE 중 feature_request 라벨 수정
+    - docs: `README.md` 내용 업데이트 &rarr; 노션의 기획 내용 반영
