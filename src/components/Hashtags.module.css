@@ -1,0 +1,8 @@
+/* hashtags.module.css */
+.hashtags {
+  @apply mb-8 flex space-x-4;
+}
+
+.hashtags__item {
+  @apply rounded-full bg-purple-500 px-4 py-2 text-white;
+}

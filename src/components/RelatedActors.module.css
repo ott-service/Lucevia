@@ -1,0 +1,28 @@
+/* relatedActors.module.css */
+.related-actors {
+  @apply mb-12 grid grid-cols-3 gap-8;
+}
+
+.related-actors__actor {
+  @apply flex flex-col items-center;
+}
+
+.related-actors__actor-image {
+  @apply mb-4 h-24 w-24 rounded-full bg-gray-300;
+}
+
+.related-actors__actor-name {
+  @apply mb-2 font-medium;
+}
+
+.related-actors__actor-role {
+  @apply text-gray-500;
+}
+
+.related-actors__actor-tags {
+  @apply mt-4 flex space-x-2;
+}
+
+.related-actors__actor-tag {
+  @apply rounded-full bg-purple-500 px-3 py-1 text-white;
+}

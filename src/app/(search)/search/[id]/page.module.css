@@ -1,0 +1,26 @@
+/* page.module.css */
+.search-page {
+  @apply p-8;
+}
+
+.search-page__title,
+.search-page__related-actors-title,
+.search-page__related-collections-title {
+  @apply mb-4 text-2xl font-bold;
+}
+
+.search-page__results {
+  @apply mb-12 grid grid-cols-3 gap-4;
+}
+
+.search-page__result {
+  @apply rounded-lg bg-gray-100 p-4;
+}
+
+.search-page__result-image {
+  @apply mb-4 h-40 w-full bg-gray-300;
+}
+
+.search-page__result-title {
+  @apply text-center font-medium;
+}

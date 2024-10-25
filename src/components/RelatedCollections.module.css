@@ -1,0 +1,24 @@
+/* relatedCollections.module.css */
+.related-collections {
+  @apply grid grid-cols-2 gap-8;
+}
+
+.related-collections__item {
+  @apply rounded-lg bg-gray-100 p-6;
+}
+
+.related-collections__image {
+  @apply mb-4 h-40 w-full bg-gray-300;
+}
+
+.related-collections__title {
+  @apply mb-2 font-medium;
+}
+
+.related-collections__description {
+  @apply mb-4 text-gray-500;
+}
+
+.related-collections__link {
+  @apply font-bold text-purple-500;
+}
